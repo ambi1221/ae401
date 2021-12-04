@@ -1,0 +1,6 @@
+from import Minecraftcpi.minecraft 
+
+mc=Minecraft.create("anorfire.club")
+uuid=mc.getPlayerEntityId("ambi1221")
+x,y,z=mc.entity.GetTilePos(uuid)
+mc.spawnEnity(x,y+10,z,93)                      
